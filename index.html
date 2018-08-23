@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+
+    <!-- Font custom -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href=#about class="link">About</a></li>
+            <li><a href=#competence class="link">Competences</a></li>
+            <li><a href=#experience class="link">Experience</a></li>
+            <li><a href=#work class="link">Travaux</a></li>
+            <li><a href=#passion class="link">Loisirs</a></li>
+            <li><a href=#contact class="link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <section>
+        <div class="about">
+            <h2>A propos</h2>
+            <p>Petite info sur moi</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Workflow</h2>
+        <aside id="competence">
+            <h2>Competences</h2>
+            <p>Voici une liste de mes Competences
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </p>
+        </aside>
+
+        <article>
+            <h2>Experience</h2>
+            <p>Quelque experiences marquantes
+                <ul>
+                    <li>Enqueteur client</li>
+                    <li>Vendeur Independant</li>
+                    <li>Agent d'accueil Pole emploi</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+
+    <section id="work">
+        <h2>Travaux</h2>
+        <p></p>
+    </section>
+
+    <section id="contact">
+        <form method="post">
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <fieldset>
+                    <legend>Vos coordonnées</legend>
+                    <input type="text" name="pseudo" placeholder="Entrer votre pseudo" />
+                    <input type="email" name="mail" placeholder="Entrer votre adresse mail">
+                    <input type="tel" name="tem" placeholder="Entrer votre numero de telephone" /><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Votre message</legend>
+                    <textarea name="message" id="ameliorer" cols="30" rows="10" placeholder="Entrer votre message"></textarea>
+                    <input type="radio" name="choix" id="Suggestion" checked/><label for="Suggestion">Suggestion</label>
+                    <input type="radio" name="choix" id="Reclamation" /><label for="Reclamation">Reclamation</label>
+                </fieldset>
+                <input type="submit" value="Envoyer" />
+                <input type="reset" value="Effacer" />
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <i class="fab fa-facebook-messenger fa-2x"></i>
+        <i class="fab fa-twitter fa-2x"></i>
+    </footer>
+</body>
+
+</html>
